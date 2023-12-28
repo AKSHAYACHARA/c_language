@@ -1,0 +1,365 @@
+question1 : to chack voter or not
+
+#include <stdio.h>
+
+int main()
+{
+   // voter id 
+   
+   int age;
+   printf("enter the age");
+   scanf("%d",&age);
+   
+   if(age>18 || age == 18){
+       
+       printf("you are elisible for vote");
+       
+   }else{
+       
+       printf("you not valid for vote");
+   }
+   
+
+    return 0;
+}
+
+question2: greater than 10
+
+#include <stdio.h>
+
+int main()
+{
+    // 10 se greater
+    int num;
+    printf("enter the number ");
+    scanf("%d",&num);
+    if (num>10)
+    {
+        printf("your value is greater than 10");
+    }else
+    {
+       printf("your value is samller than 10");
+    }
+    
+    return 0;
+}
+
+question3: greater than 50
+
+#include <stdio.h>
+
+int main()
+{
+    // 10 se greater
+    int num;
+    printf("enter the number ");
+    scanf("%d",&num);
+    if (num>50)
+    {
+        printf("your value is greater than 50");
+    }else
+    {
+       printf("your value is not greater than 50");
+    }
+    
+    return 0;
+}
+
+question4 : greater than 100 or not
+
+#include <stdio.h>
+
+int main()
+{
+    // 10 se greater
+    int num;
+    printf("enter the number ");
+    scanf("%d",&num);
+    if (num>50)
+    {
+        printf("your value is greater than 50");
+    }else
+    {
+       printf("your value is not greater than 50");
+    }
+    
+    return 0;
+}
+
+question5 odd and even
+
+#include <stdio.h>
+int main()
+{
+    int num;
+    printf("enter the number ");
+    scanf("%d",&num);
+    
+   if(num%2 == 0)
+   {
+       printf("the number is even");
+       
+   }else{
+       printf("the number is odd");
+   }
+    
+    return 0;
+}
+
+queston 6)input number :to check a number is divisble by 5 or not
+
+#include<stdio.h>
+
+int main() 
+{
+    int number;
+    printf("enter the number");
+    scanf("%d",&number);
+    
+    if (number%5==0)
+    {
+        printf("your number is divisible by 5");
+    }
+    else{
+        printf("your number is not divide by 5");
+    }
+    
+    
+    return 0;
+}
+
+question 7)vowel and consonant
+
+#include<stdio.h>
+
+int main() 
+{
+    char a;
+    printf("enter the charecter value ");
+    scanf("%c",&a);
+    
+    if (a == 'a'||a=='e'||a=='i'||a=='o'||a=='u')
+    {
+         printf("your charecter is vowel");
+    }
+    else
+    {
+        printf("your charecter is consonant");
+    }
+    
+    return 0;
+}
+
+question 8)s :subsraction two number 
+
+  #include<stdio.h>
+
+int main() 
+{
+    char a;
+    printf("enter the charecter value ");
+    scanf("%c",&a);
+    
+   if(a=='s')
+   {
+       int a,b;
+       printf("enter the value of a & b ");
+       scanf("%d %d",&a,&b);
+       int c = a-b;
+       printf("subsraction two number %d",c);
+       
+   }else
+   {
+       printf("the charecter you have enter is worng only put charecter 's' ");
+   }
+    
+    return 0;
+}
+
+question 9)user input :
+           m :multiplication 
+
+    #include<stdio.h>
+
+int main() 
+{
+    char a;
+    printf("enter the charecter value ");
+    scanf("%c",&a);
+    
+   if(a=='m')
+   {
+       int a,b;
+       printf("enter the value of a & b ");
+       scanf("%d %d",&a,&b);
+       int c = a*b;
+       printf("multiplication two number %d",c);
+       
+   }else
+   {
+       printf("the charecter you have enter is worng only put charecter 'm' ");
+   }
+    
+    return 0;
+}
+
+question 10) d :divide 
+
+#include <stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the charecter :");
+    scanf("%c",&a);
+    
+    if(a == 'd')
+    {
+        float a,b;
+        printf("enter the value of a&b ");
+        scanf(" %f%f",&a,&b);
+        float c = a/b;
+        printf("the dividion value of : %f",c);
+        
+    } else
+    {
+        printf("please pess only d charecter");
+    }
+
+    return 0;
+}
+
+question 11) i: modular
+
+#include <stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the charecter :");
+    scanf("%c",&a);
+    
+    if(a == 'i')
+    {
+        int a,b;
+        printf("enter the value of a&b ");
+        scanf(" %d%d",&a,&b);
+        int c = a%b;
+        printf("the modular value of : %d",c);
+        
+    } else
+    {
+        printf("please pess only i charecter");
+    }
+
+    return 0;
+}
+
+question 12)user number :check number 6 or 3 se divisble both 
+
+    
+#include <stdio.h>
+
+int main()
+{
+   int number;
+   printf("enter a number :");
+   scanf("%d",&number);
+   if(number%6==0 && number%3==0)
+   {
+       printf("the number is divisble both");
+   }
+   else
+   
+   {
+       printf("the number is not divisble 3 & 6");
+   }
+
+    return 0;
+}
+
+question 13)user number :check number 3 or 5 se divisble 
+
+#include <stdio.h>
+
+int main()
+{
+   int number;
+   printf("enter a number :");
+   scanf("%d",&number);
+   if(number%3==0 || number%5==0)
+   {
+       printf("the number is divisble 3 or 5");
+   }
+   else
+   
+   {
+       printf("the number is not divisble 3 & 5");
+   }
+
+    return 0;
+}
+
+question 14) input user :p :swap number without third variable
+
+#include <stdio.h>
+
+int main()
+{
+   char a;
+   printf("enter the charecter :");
+   scanf("%c",&a);
+   
+   if (a == 'p')
+   {
+       int a,b;
+       printf("enter the value of a & b :");
+       scanf("%d%d",&a,&b);
+       a = a+b;
+       b = a-b;
+       a = a-b;
+       printf("two swaping value without using 3 veriable a & b :%d %d",a,b);
+   }
+   else
+   {
+       printf("enter only p charecter");
+   }
+
+    return 0;
+}
+
+question 15) : input user :w :swap number with third varaible 
+
+#include <stdio.h>
+
+int main()
+{
+   char a;
+   printf("enter the charecter :");
+   scanf("%c",&a);
+   
+   if (a == 'w')
+   {
+       int a,b,c;
+       printf("enter the value of a & b :");
+       scanf("%d%d",&a,&b);
+       
+       c = a;
+       a = b;
+       b = c;
+      
+       printf("two swaping value with using 3 veriable a & b :%d %d",a,b);
+   }
+   else
+   {
+       printf("enter only w charecter");
+   }
+
+    return 0;
+}
+
+
+
+
+
+

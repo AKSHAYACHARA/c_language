@@ -1,0 +1,265 @@
+1)1-->5 number print 
+
+#include <stdio.h>
+
+int main()
+{
+   int a = 1;
+   while(a<=5)
+   {
+       printf("%d ",a);
+       a++;
+   }
+
+    return 0;
+}
+
+2)1---->10 number print
+
+#include <stdio.h>
+
+int main()
+{
+   int a = 1;
+   while(a<=10)
+   {
+       printf("%d ",a);
+       a++;
+   }
+
+    return 0;
+}
+
+3)1--->100 number print
+
+#include <stdio.h>
+
+int main()
+{
+   int a = 1;
+   while(a<=100)
+   {
+       printf("%d ",a);
+       a++;
+   }
+
+    return 0;
+}
+
+4)1-->1000 number print 
+
+#include <stdio.h>
+
+int main()
+{
+   int a = 1;
+   while(a<=1000)
+   {
+       printf("%d ",a);
+       a++;
+   }
+
+    return 0;
+}
+
+5)50--->500 number print
+
+#include <stdio.h>
+
+int main()
+{
+   int a = 50;
+   while(a<=100)
+   {
+       printf("%d ",a);
+       a++;
+   }
+
+    return 0;
+}
+
+6)34--->89 number print 
+
+#include <stdio.h>
+
+int main()
+{
+   int a = 34;
+   while(a<=89)
+   {
+       printf("%d ",a);
+       a++;
+   }
+
+    return 0;
+}
+
+7)user input :
+starting point :2
+ending point :9
+
+#include <stdio.h>
+
+int main()
+{
+   int a,b ;
+   printf("enter the input of 2 or 9 ");
+   scanf("%d %d",&a,&b);
+   while(a<=b)
+   {
+       printf("%d ",a);
+       a++;
+   }
+
+    return 0;
+}
+
+8)
+10--->1 number print
+
+#include <stdio.h>
+
+int main()
+{
+   int a = 10;
+   while(a>=1)
+   {
+       printf("%d ",a);
+       a--;
+   }
+
+    return 0;
+}
+
+9)
+100----->1 number print
+
+#include <stdio.h>
+
+int main()
+{
+   int a = 100;
+   while(a>=1)
+   {
+       printf("%d ",a);
+       a--;
+   }
+
+    return 0;
+}
+
+10)
+1000---->1 number print
+
+#include <stdio.h>
+
+int main()
+{
+   int a = 1000;
+   while(a>=1)
+   {
+       printf("%d ",a);
+       a--;
+   }
+
+    return 0;
+}
+
+11)500---->50 number print
+
+#include <stdio.h>
+
+int main()
+{
+   int a = 500;
+   while(a>=50)
+   {
+       printf("%d ",a);
+       a--;
+   }
+
+    return 0;
+}
+
+12)starting point :user input :9
+ending point :user :2 
+
+#include <stdio.h>
+
+int main()
+{
+   int a ,b ;
+   printf("enter the value of a and b");
+   scanf("%d %d",&a,&b);
+   while(a>=b)
+   {
+       printf("%d ",a);
+       a--;
+   }
+
+    return 0;
+}
+
+13) f : 1---->10 print 
+    b 10---->1 print 
+    r :
+	f :random two value 1 --8
+	b :random two value 9--->2
+
+
+#include <stdio.h>
+
+int main()
+{
+   char a;
+   printf("enter the charecter f or b or r:");
+   scanf("%c",&a);
+   if(a =='f')
+   {
+       int num =1;
+       while(num<=10)
+       {
+           printf("%d ",num);
+           num++;
+       }
+       
+   }else if(a == 'b')
+   {
+       int num1 = 10;
+       while(num1>=1)
+       {
+           printf("%d",num1);
+           num1--;
+       }
+   }else if(a=='r')
+     
+   {
+       char r;
+       printf("enter the charecter f and b");
+       scanf(" %c",&r);
+       if(r=='f')
+       {
+           int num1,num2;
+           printf("enter the value num1 and num2:");
+           scanf("%d %d",&num1,&num2);
+           while(num1<=num2)
+           {
+               printf("%d",num1);
+               num1++;
+           }
+       }
+       else if (r=='b')
+       {
+            int num1,num2;
+           printf("enter the value num1 and num2:");
+           scanf("%d %d",&num1,&num2);
+           while(num1>=num2)
+           {
+               printf("%d",num1);
+               num1--;
+           }
+       }
+   }
+
+    return 0;
+}

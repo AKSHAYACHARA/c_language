@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main(){
+    
+    printf("india \n");
+    printf("usa \n");
+    printf("china \n");
+    printf("nepal \n");
+    printf("bali \n");
+    
+    printf("\njaipur \n");
+    printf("delhi \n");
+    printf("jhujhunu \n");
+    printf("siker \n");
+    printf("shimla \n");
+    
+    printf("\nburgur \n");
+    printf("pizza \n");
+    printf("butter chikan \n");
+    printf("dal bati churma \n");
+    printf("samosa \n");
+    
+    printf("\nraj \n");
+    printf("vishu \n");
+    printf("nitin \n");
+    printf("aftab \n");
+    printf("aarush \n");
+    
+     printf("\napple \n");
+    printf("banana \n");
+    printf("oringe \n");
+    printf("watermalan \n");
+    printf("grapess \n");
+    
+    
+    return 0;
+}
